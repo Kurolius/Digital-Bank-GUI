@@ -1,0 +1,37 @@
+
+<div class="px-2 py-3">
+
+    
+
+    <div class="card">
+        <div class="card-header p-3 text-center">
+            <h3 class="h2 fw-light">
+                Welcome to your Digital Bank
+            </h3>
+        </div>
+        
+        <div class="card-body text-center" *ngIf="!authenticated; else authentified">
+            
+            <span class="h4">
+                Your Digital Bank in one click !!
+            </span><br><br>
+            <button type="button" class="btn btn-dark" routerLink="/login"> <i class="bi bi-bank"></i> Get Started</button>
+        </div>
+        <ng-template #authentified>
+            <div class="card-body text-center" >
+            
+            <span class="h4">
+                Your Digital Bank in one click !!
+            </span><br><br>
+            <button type="button" class="btn btn-dark" routerLink="/customers/new"> <i class="bi bi-bank"></i> Add new customer</button>
+            </div>
+        </ng-template>
+        <div class="card-footer text-center">
+            <span>
+                © Majbar Yassine
+            </span>
+        </div>
+
+    </div>
+
+</div>
