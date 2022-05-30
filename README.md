@@ -119,19 +119,25 @@ const routes: Routes = [
 ## Overview :
 
 - Home page :
+
 ![image](https://user-images.githubusercontent.com/84138772/171067534-9255171c-a7fd-4a4e-959d-1d08b05fd0a6.png)
 
 - Login page :
+
 ![image](https://user-images.githubusercontent.com/84138772/171067573-5027db06-5c22-4c26-b4b4-e1e78afab8d7.png)
 
 - List of costumers page :
+
 ![image](https://user-images.githubusercontent.com/84138772/171067638-6b50e97a-7a8c-404d-85f3-7a828001ac17.png)
 
 - Add new customer page :
+
 ![image](https://user-images.githubusercontent.com/84138772/171067661-654afba2-6318-4aa4-98f2-d8e0e3190abb.png)
 
 - Accounts page :
+
 ![image](https://user-images.githubusercontent.com/84138772/171067715-a3f26fa7-e8ac-46cc-8693-768520dbf7d9.png)
 
 - Operation page :
+
 ![image](https://user-images.githubusercontent.com/84138772/171067763-9c617062-e613-45cc-be5e-c4a7ca35b5b1.png)
